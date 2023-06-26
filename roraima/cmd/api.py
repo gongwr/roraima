@@ -14,9 +14,6 @@ if os.path.exists(os.path.join(possible_topdir, 'roraima', '__init__.py')):
 
 static_dir = os.path.join(possible_topdir, 'static')
 
-print(possible_topdir)
-print(static_dir)
-
 
 def create_app():
     app = FastAPI(title="Roraima API Server",
