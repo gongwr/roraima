@@ -26,5 +26,5 @@ uvicorn roraima.cmd.api:app_ --reload
 or
 
 ```bash
-python roraima-api
+python roraima-api --config-file ./etc/roraima-api.conf
 ```
